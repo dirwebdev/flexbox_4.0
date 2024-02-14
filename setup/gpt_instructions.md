@@ -45,22 +45,58 @@
 
 ## Folder structure:
 ### Each child folder will have similiar structure as layout_01
-flexbox_4.0 **(parent folder to hold the layouts)** will be git repo...
-- gpt.md
-- layout_01 **(each of these will be a new branch)**
-    - index.html
-    - layout_01/styles
-    - layout_01/styles/styles.css
-    - layout_01/images
-- layout_02 **(each of these will be a new branch)**
-- layout_03 **(each of these will be a new branch)**
-- layout_04 **(each of these will be a new branch)**
-- layout_05 **(each of these will be a new branch)**
-- layout_06 **(each of these will be a new branch)**
-- layout_07 **(each of these will be a new branch)**
-- layout_08 **(each of these will be a new branch)**
-- layout_09 **(each of these will be a new branch)**
-- layout_10 **(each of these will be a new branch)**
+
+```md
+flexbox_4.0/
+├── README.md
+└── layout_01/
+    ├── index.html
+    ├── styles/
+    │   └── styles.css
+    └── assets/
+        └── images/
+            ├── placeholder_landscape/
+            │   ├── dummy-1000x750-color123456.jpg
+            │   ├── dummy-1024x576-color123456.jpg
+            │   ├── dummy-1120x630-color123456.jpg
+            │   ├── dummy-1134x756-color123456.jpg
+            │   ├── dummy-1280x960-color123456.jpg
+            │   ├── dummy-1600x900-color123456.jpg
+            │   ├── dummy-160x107-color123456.jpg
+            │   ├── dummy-1730x1068-color123456.jpg
+            │   ├── dummy-1752x1168-color123456.jpg
+            │   ├── dummy-180x150-color123456.jpg
+            │   ├── dummy-1920x1280-color123456.jpg
+            │   ├── dummy-2040x1360-color123456.jpg
+            │   ├── dummy-2048x1536-color123456.jpg
+            │   ├── dummy-240x160-color123456.jpg
+            │   ├── dummy-2880x2160-color123456.jpg
+            │   ├── dummy-454x280-color123456.jpg
+            │   ├── dummy-468x60-color123456.jpg
+            │   ├── dummy-500x375-color123456.jpg
+            │   ├── dummy-640x360-color123456.jpg
+            │   └── dummy-800x533-color123456.jpg
+            └── placeholder_portrait/
+                ├── dummy-1024x1820-color123456.jpg
+                ├── dummy-1050x1400-color123456.jpg
+                ├── dummy-120x240-color123456.jpg
+                ├── dummy-1290x2090-color123456.jpg
+                ├── dummy-135x240-color123456.jpg
+                ├── dummy-1360x2040-color123456.jpg
+                ├── dummy-160x240-color123456.jpg
+                ├── dummy-1920x2560-color123456.jpg
+                ├── dummy-222x360-color123456.jpg
+                ├── dummy-370x600-color123456.jpg
+                ├── dummy-375x500-color123456.jpg
+                ├── dummy-428x760-color123456.jpg
+                ├── dummy-500x750-color123456.jpg
+                ├── dummy-556x900-color123456.jpg
+                ├── dummy-56x100-color123456.jpg
+                ├── dummy-600x800-color123456.jpg
+                ├── dummy-600x900-color123456.jpg
+                ├── dummy-765x1240-color123456.jpg
+                └── dummy-864x1152-color123456.jpg
+```
 
 ## Naming conventions:
 - use lowercase_underscore
@@ -76,15 +112,8 @@ flexbox_4.0 **(parent folder to hold the layouts)** will be git repo...
 ### 01. At the start of each layout:
 - Create an `ascii` drawing of the layout we are going to 
     - Create an `ascii` drawing of both mobile and desktop versions
-- Give commands without descriptions to make branch
+- Give commands without descriptions to make branch for
 - Enter that branch
-- Create file structure
-    - Create the necessary project files for each layout.
-        - Folders
-        - Files (empty files)
-        - Placeholder
-    - Create layout_01.zip (or whatever layout we are doing)
-    - the layout_.zip files you generate will be the starting point, blank slate for the layout.
 
 ### 02: Completing the layout:
 - When we are done with each layout:
