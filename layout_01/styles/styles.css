@@ -1,0 +1,124 @@
+/* CSS Reset + Box Sizing */
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FAFAFA; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+/* Header Styles */
+header {
+    background-color: #2C3E50; /* Deep blue */
+    color: #ECF0F1; /* Soft off-white */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+.logo a {
+    color: #ECF0F1;
+    text-decoration: none;
+    font-size: 1.8vw; /* Responsive font size */
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    background-color: transparent; /* Clean look */
+    color: #ECF0F1;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border: 1px solid #ECF0F1; /* Outline style */
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ECF0F1; /* Invert colors on hover */
+    color: #2C3E50;
+}
+
+/* Main Content Styles */
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #E0F2F1; /* Light teal */
+}
+
+article {
+    background-color: #FFFFFF; /* White */
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+    border-radius: 5px; /* Rounded corners */
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2C3E50; /* Deep blue */
+    color: #ECF0F1; /* Soft off-white */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; /* Sticky to bottom */
+}
+
+footer a {
+    color: #ECF0F1;
+    text-decoration: none;
+    margin: 0 15px; /* Increased margin for better spacing */
+    padding: 10px 15px; /* Consistent padding */
+    background-color: #34495E; /* Slightly lighter blue for buttons */
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+footer a:hover {
+    background-color: #4A6572; /* Lighter blue on hover */
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    article {
+        flex: 1 0 calc(50% - 20px); /* Two articles per row */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer a {
+        font-size: 14px; /* Larger font size for better readability on mobile */
+        margin: 10px 10px; /* Adjusted margin for mobile layout */
+        padding: 12px 18px; /* Increased padding for larger tap area */
+    }
+}
